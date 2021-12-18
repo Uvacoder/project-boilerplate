@@ -1,0 +1,47 @@
+{
+  "name": "project-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier:all": "prettier . --check",
+    "prettier:all:fix": "prettier . --write",
+    "type-checks": "tsc",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@mantine/core": "^3.2.2",
+    "@mantine/hooks": "^3.2.2",
+    "@mantine/next": "^3.2.2",
+    "@vanilla-extract/babel-plugin": "^1.1.2",
+    "@vanilla-extract/css": "^1.6.4",
+    "@vanilla-extract/next-plugin": "^1.0.1",
+    "next": "12.0.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@next/eslint-plugin-next": "^12.0.4",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/react": "^6.3.12",
+    "@types/react": "17.0.37",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "babel-loader": "^8.2.3",
+    "eslint": "8.3.0",
+    "eslint-config-next": "12.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "next-compose-plugins": "^2.2.1",
+    "prettier": "^2.4.1",
+    "typescript": "4.5.2"
+  }
+}
